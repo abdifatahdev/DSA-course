@@ -1,4 +1,4 @@
-# Data-Structures-Algorithms-Course
+# Data Structures Algorithms Course
 Course-dan waxaa ugu talo galay ardayda ku cusub ama horay u soo dhigtay Data Structures & Algorithms-ka inay ka faa'iidaystaan anagoo dulmari doona mowduucyada hoos ku xusan:
 - Big-O notation & Asymptotic Analysis
 - Arrays 
