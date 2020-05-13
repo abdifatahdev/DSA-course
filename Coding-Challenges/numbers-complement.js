@@ -10,19 +10,19 @@ https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-m
 // 010 = (0*2^2) + (1*2^1) + (0*2^0) = 2 
 
 let findComplement = function(num) {
-    binary = decimalToBinary(num); 
-        complement = complements(binary); 
-        decimal = binaryToDecimal(complement); 
-        return decimal; 
+  binary = decimalToBinary(num); 
+  complement = complements(binary); 
+  decimal = binaryToDecimal(complement); 
+  return decimal; 
 };
 
 function decimalToBinary(num) {
- let arr=[];
- while(num > 0){
-   let remainder = num % 2;
-   arr.unshift(remainder)
-   num = Math.floor(num / 2)
- }
+  let arr=[];
+  while(num > 0){
+    let remainder = num % 2;
+    arr.unshift(remainder)
+    num = Math.floor(num / 2)
+  }
  return arr.join('').toString()
 }
 function complements(binary) {
@@ -38,11 +38,11 @@ function complements(binary) {
   return result;
 }
 function binaryToDecimal(binary) {
-    let decimal = 0;
-    let index = 0; 
+  let decimal = 0;
+  let index = 0; 
   for(let i = binary.length-1; i > -1; i--){
     decimal += parseInt(binary[index])*Math.pow(2, i);
-        index++; 
+    index++; 
   }
   return decimal;
 }

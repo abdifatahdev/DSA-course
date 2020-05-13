@@ -21,7 +21,8 @@ console.log(targetSum2(arr, target));
 // Space complexity: O(1) - constant
 function targetSum(arr, target) {
   arr.sort((a, b) => a - b);
-  let left = 0, right = arr.length - 1;
+  let left = 0,
+    right = arr.length - 1;
   while (left < right) {
     let currentSum = arr[left] + arr[right];
     if (currentSum === target) {

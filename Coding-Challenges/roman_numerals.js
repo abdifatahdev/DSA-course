@@ -12,5 +12,5 @@ const romanNumerals = (roman) => {
 
   return currValue + map[roman[roman.length - 1]];
 };
-let input5 = "MCMXCIV"
+let input5 = "MCMXCIV";
 romanNumerals(input5);

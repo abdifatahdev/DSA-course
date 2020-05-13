@@ -1,7 +1,7 @@
-arr = [2,2,1,1,1,2,2]
+arr = [2, 2, 1, 1, 1, 2, 2];
 
-// Given an array of size n, find the majority element. 
-// The majority element is the element that 
+// Given an array of size n, find the majority element.
+// The majority element is the element that
 // appears more than ⌊ n/2 ⌋ times.
 
 // Time complexity: O(n)
